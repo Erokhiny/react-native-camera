@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2016 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -79,7 +79,7 @@ class Camera2 extends CameraViewImpl implements MediaRecorder.OnInfoListener, Me
     /**
      * Max preview width that is guaranteed by Camera2 API
      */
-    private static final int MAX_PREVIEW_WIDTH = 1920;
+    private static final int MAX_PREVIEW_WIDTH = 1000;
 
     /**
      * Max preview height that is guaranteed by Camera2 API
