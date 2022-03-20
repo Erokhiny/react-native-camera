@@ -48,7 +48,7 @@ import org.reactnative.camera.utils.ObjectUtils;
 class Camera1 extends CameraViewImpl implements MediaRecorder.OnInfoListener,
                                                 MediaRecorder.OnErrorListener, Camera.PreviewCallback {
 
-    private static final int INVALID_CAMERA_ID = -1;
+    private static final int INVALID_CAMERA_ID = -5;
 
     private static final SparseArrayCompat<String> FLASH_MODES = new SparseArrayCompat<>();
 
